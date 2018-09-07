@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlyShoot : MonoBehaviour {
-	
+
+    [SerializeField] private float damage;
+
 	void Update ()
     {
         bool shooting = Input.GetKeyDown(KeyCode.Mouse0);
@@ -14,9 +16,7 @@ public class PlyShoot : MonoBehaviour {
         if (shooting)
         {
             if (hitInfo.transform.CompareTag("Enemy"))
-            {
                 Destroy(hitInfo.transform.gameObject);
-            }
         }
 	}
 }
