@@ -23,9 +23,9 @@ GameObject:
   - component: {fileID: 23625725321125252}
   - component: {fileID: 136855783190924882}
   - component: {fileID: 195123180838600906}
+  - component: {fileID: 54723544324024128}
   - component: {fileID: 114153035102932492}
   - component: {fileID: 114515548931599110}
-  - component: {fileID: 54723544324024128}
   m_Layer: 9
   m_Name: Capsule
   m_TagString: Enemy

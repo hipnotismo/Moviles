@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - GameManager
   - Block
+  - Environment
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - Enemy
   - Player
   - Block
-  - 
+  - MagicCircle
   - 
   - 
   - 
